@@ -10,7 +10,9 @@ discordit --profile testing --text "Hello"
 ```
 
 A successful post returns when Discord answers HTTP 204. The webhook URL must
-start with `https://discord.com/api/webhooks/`. `--profile` reads a named
+use Discord's
+[`/api/webhooks/`](https://discord.com/developers/docs/resources/webhook)
+path. `--profile` reads a named
 profile from `$HOME/.discordit.yml`.
 
 ## Next steps

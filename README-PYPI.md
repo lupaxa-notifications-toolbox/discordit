@@ -23,7 +23,7 @@ Send Discord messages through an incoming webhook.
 - Override any profile field with a CLI flag
 - Enable text-to-speech, a forum thread name, and allowed mentions
 - Turn escaped `\n` sequences in message text into real line breaks
-- Reject webhook URLs that do not start with `https://discord.com/api/webhooks/`
+- Reject webhook URLs that do not use Discord's [`/api/webhooks/`](https://discord.com/developers/docs/resources/webhook) path
 - Reject webhook URLs that answer `GET` with a redirect
 - Use the `Discordit` library class or the `discordit` command
 
@@ -67,7 +67,9 @@ discordit -p alerts --config "$HOME/work/discordit.yml" --text "Disk full"
 python -m lupaxa.discordit --version
 ```
 
-The webhook URL must start with `https://discord.com/api/webhooks/`.
+The webhook URL must use Discord's
+[`/api/webhooks/`](https://discord.com/developers/docs/resources/webhook)
+path.
 `--text`, `--embed`, and `--file` may be combined. `--validate` cannot
 be combined with them. One of those four is required. Flags override
 the same fields from the selected profile.

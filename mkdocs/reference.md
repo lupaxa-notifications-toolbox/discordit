@@ -19,7 +19,9 @@
 | `--timeout`, `-T`         | `10`                 | Request timeout in seconds                       |
 | `--version`               | —                    | Print the package version and exit               |
 
-The webhook URL must start with `https://discord.com/api/webhooks/`.
+The webhook URL must use Discord's
+[`/api/webhooks/`](https://discord.com/developers/docs/resources/webhook)
+path.
 `--timeout` must be greater than `0`. At least one of `--text`, `--embed`,
 `--file`, or `--validate` is required. `--validate` cannot be combined with
 `--text`, `--embed`, or `--file`. Pass `--webhook`, or `--profile` with a

@@ -25,6 +25,9 @@ jobs:
   link-checker:
     name: Link Checker
     uses: the-lupaxa-project/workflows/.github/workflows/reusable-link-checker.yml@master
+    with:
+      # Placeholder webhook and avatar URLs used as examples in the docs.
+      whitelist: "https://discord.com/api/webhooks/WEBHOOK_ID/WEBHOOK_TOKEN,https://example.com/avatar.png"
     secrets: inherit
 
   generate-workflow-summary:
