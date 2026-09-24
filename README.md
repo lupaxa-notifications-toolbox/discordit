@@ -4,15 +4,9 @@
   </a>
 </p>
 
-<h1 align="center">discordit</h1>
+<h1 align="center">Discordit</h1>
 
 Send Discord messages through an incoming webhook.
-
-<p align="center">
-  <a href="https://discordit.thelupaxaproject.org/">Documentation</a>
-  ·
-  <a href="https://github.com/lupaxa-notifications-toolbox/discordit">GitHub</a>
-</p>
 
 ## Install
 
@@ -78,6 +72,16 @@ client.send_message("Hello")
 make init
 make python-install-dev
 make python-check
+```
+
+## Documentation
+
+Site pages live in `mkdocs/` and publish to
+<https://discordit.thelupaxaproject.org/>.
+
+```bash
+make init
+make python-install-dev
 make mkdocs-serve
 ```
 

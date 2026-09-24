@@ -1,6 +1,6 @@
 # Reference
 
-## CLI arguments
+## CLI Arguments
 
 | Flag                      | Default              | Description                                      |
 | :------------------------ | :------------------- | :----------------------------------------------- |
@@ -29,7 +29,7 @@ path.
 `$HOME/.discordit.yml` and requires `--profile`. CLI flags override the
 selected profile.
 
-## Config file
+## Config File
 
 The default path is `$HOME/.discordit.yml`, from `default_config_path()`.
 `--config` selects another file and requires `--profile`.
@@ -47,7 +47,7 @@ The default path is `$HOME/.discordit.yml`, from `default_config_path()`.
 The file must contain a `profiles` mapping. Profile names are strings.
 Unknown keys are rejected. CLI flags override the selected profile.
 
-## Exit codes
+## Exit Codes
 
 | Code | When                                                         |
 | :--- | :----------------------------------------------------------- |

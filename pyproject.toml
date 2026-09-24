@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "lupaxa-discordit"
 dynamic = ["version"]
 description = "Send Discord messages through an incoming webhook."
-readme = "README-PYPI.md"
+readme = "README.md"
 license = { file = "LICENCE" }
 requires-python = ">=3.13"
 
@@ -68,7 +68,6 @@ path = "src/lupaxa/discordit/version.py"
 include = [
   "src/**",
   "README.md",
-  "README-PYPI.md",
   "LICENCE",
 ]
 

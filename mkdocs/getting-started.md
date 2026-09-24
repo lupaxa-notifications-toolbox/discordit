@@ -1,4 +1,4 @@
-# Getting started
+# Getting Started
 
 ## Requirements
 
@@ -13,7 +13,7 @@ pip install lupaxa-discordit
 discordit --help
 ```
 
-## First run
+## First Run
 
 ```bash
 discordit --webhook "$DISCORD_WEBHOOK_URL" --text "Hello"
@@ -22,7 +22,7 @@ discordit --webhook "$DISCORD_WEBHOOK_URL" --text "Hello"
 The command exits `0` when Discord accepts the message. Put the webhook URL in
 the environment, or in a profile, rather than in shell history.
 
-## Config file
+## Config File
 
 Profiles live in `$HOME/.discordit.yml`. Pass `--config` when the file lives
 somewhere else. `--config` requires `--profile`.
@@ -55,7 +55,7 @@ Module entry point:
 python -m lupaxa.discordit --version
 ```
 
-### From source (development)
+### From Source (Development)
 
 ```bash
 make init
@@ -63,7 +63,7 @@ make python-install-dev
 discordit --version
 ```
 
-## Makefile helpers
+## Makefile Helpers
 
 ```bash
 make init                 # clone makefile-skills into .makefiles/

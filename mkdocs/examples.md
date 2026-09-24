@@ -1,6 +1,6 @@
 # Examples
 
-## Plain text
+## Plain Text
 
 ```bash
 discordit --webhook "$DISCORD_WEBHOOK_URL" --text "Hello"
@@ -12,37 +12,37 @@ discordit --webhook "$DISCORD_WEBHOOK_URL" --text "Hello"
 discordit --profile testing --text "Hello"
 ```
 
-## Config path
+## Config Path
 
 ```bash
 discordit -p alerts --config "$HOME/work/discordit.yml" --text "Disk full"
 ```
 
-## File plus text
+## File Plus Text
 
 ```bash
 discordit --webhook "$DISCORD_WEBHOOK_URL" --file report.txt --text "see attached"
 ```
 
-## Embed plus TTS
+## Embed Plus TTS
 
 ```bash
 discordit --webhook "$DISCORD_WEBHOOK_URL" --embed '{"title":"Hi"}' --tts
 ```
 
-## Thread name
+## Thread Name
 
 ```bash
 discordit --webhook "$DISCORD_WEBHOOK_URL" --thread-name Incident --text started
 ```
 
-## Allowed mentions
+## Allowed Mentions
 
 ```bash
 discordit --webhook "$DISCORD_WEBHOOK_URL" --allowed-mentions '{"parse":[]}' --text "no pings"
 ```
 
-## Validation post
+## Validation Post
 
 ```bash
 discordit --profile testing --validate

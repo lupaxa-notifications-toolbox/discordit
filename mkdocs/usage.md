@@ -4,7 +4,7 @@ Use `discordit` to post text, one embed, and one file together in a single
 execute call. Pass the webhook URL with `--webhook`, or select a profile with
 `--profile`.
 
-## CLI flags
+## CLI Flags
 
 | Flag                      | Default              | Description                                      |
 | :------------------------ | :------------------- | :----------------------------------------------- |
@@ -35,7 +35,7 @@ the same field from the selected profile.
 Escaped newlines in `--text` are sent as real line breaks, so `Hello\\nthere`
 arrives as two lines. Content longer than 2000 characters is an error.
 
-## Config file
+## Config File
 
 Profiles live in one YAML file. The default path is `$HOME/.discordit.yml`.
 Pass `--config` when the file lives somewhere else.
